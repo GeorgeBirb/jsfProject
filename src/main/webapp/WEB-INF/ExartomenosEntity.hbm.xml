@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="org.models.ExartomenosEntity" table="exartomenos" schema="etaireia">
+        <property name="eArtayt">
+            <column name="E_ARTAYT" sql-type="int" not-null="true"/>
+        </property>
+        <property name="onomaExartomenou">
+            <column name="ONOMA_EXARTOMENOU" sql-type="text" not-null="true"/>
+        </property>
+        <property name="fylo">
+            <column name="FYLO" sql-type="text" not-null="true"/>
+        </property>
+        <property name="hmGen">
+            <column name="HM_GEN" sql-type="text" not-null="true"/>
+        </property>
+        <property name="sxesh">
+            <column name="SXESH" sql-type="text" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

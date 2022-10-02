@@ -14,10 +14,18 @@
     <mapping resource="CountryEntity.hbm.xml"/>
     <mapping class="org.models.CountrylanguageEntity"/>
     <mapping resource="CountrylanguageEntity.hbm.xml"/>
-    <!-- <property name="connection.username"/> -->
-    <!-- <property name="connection.password"/> -->
+    <mapping class="org.models.ApasxolisiEntity"/>
+    <mapping resource="ApasxolisiEntity.hbm.xml"/>
+    <mapping class="org.models.ErgazomenosEntity"/>
+    <mapping resource="ErgazomenosEntity.hbm.xml"/>
+    <mapping class="org.models.ErgoEntity"/>
+    <mapping resource="ErgoEntity.hbm.xml"/>
+    <mapping class="org.models.ExartomenosEntity"/>
+    <mapping resource="ExartomenosEntity.hbm.xml"/>
+    <mapping class="org.models.TmhmaEntity"/>
+    <mapping resource="TmhmaEntity.hbm.xml"/>
+    <mapping class="org.models.TopothtmhmaEntity"/>
+    <mapping resource="TopothtmhmaEntity.hbm.xml"/>
 
-    <!-- DB schema will be updated if needed -->
-    <!-- <property name="hibernate.hbm2ddl.auto">update</property> -->
   </session-factory>
 </hibernate-configuration>
