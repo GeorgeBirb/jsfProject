@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "ergo", schema = "etaireia", catalog = "")
-public class ErgoEntity {
+public class Ergo {
     @Basic
     @Column(name = "Ε_ΟΝΟΜΑ", nullable = true, length = -1)
     private String εΟνομα;

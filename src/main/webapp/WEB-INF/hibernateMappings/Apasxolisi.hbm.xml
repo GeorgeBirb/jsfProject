@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="org.models.ApasxolisiEntity" table="apasxolisi" schema="etaireia">
+    <class name="org.models.Apasxolisi" table="apasxolisi" schema="etaireia">
         <property name="eArtayt">
             <column name="E_ARTAYT" sql-type="int" not-null="true"/>
         </property>

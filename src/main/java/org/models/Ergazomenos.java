@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "ergazomenos", schema = "etaireia", catalog = "")
-public class ErgazomenosEntity {
+public class Ergazomenos {
     @Basic
     @Column(name = "ONOMA", nullable = true, length = -1)
     private String onoma;

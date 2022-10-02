@@ -15,6 +15,7 @@
  */
 package org.primefaces.omega.view;
 
+import org.models.Ergazomenos;
 import org.primefaces.PrimeFaces;
 import org.primefaces.event.ToggleEvent;
 import org.primefaces.model.Visibility;
@@ -35,7 +36,9 @@ import java.util.UUID;
 @Named
 @ViewScoped
 public class CrudDemoView implements Serializable {
-    
+
+
+    private List<Ergazomenos> ergazomenosEntityList ;
     private List<Product> products;
 
     private Product selectedProduct;
@@ -51,6 +54,7 @@ public class CrudDemoView implements Serializable {
     @PostConstruct
     public void init() {
         this.products = this.productService.getClonedProducts(30);
+
     }
     
     public List<Product> getProducts() {
@@ -125,5 +129,13 @@ public class CrudDemoView implements Serializable {
                 product.setOrders(orderService.getOrders((int) (Math.random() * 10)));
             }
         }
+    }
+
+    public List<Ergazomenos> getErgazomenosEntityList() {
+        return ergazomenosEntityList;
+    }
+
+    public void setErgazomenosEntityList(List<Ergazomenos> ergazomenosEntityList) {
+        this.ergazomenosEntityList = ergazomenosEntityList;
     }
 }

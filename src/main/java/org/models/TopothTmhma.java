@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "topothtmhma", schema = "etaireia", catalog = "")
-public class TopothtmhmaEntity {
+public class TopothTmhma {
     @Basic
     @Column(name = "KOD_TMHM", nullable = true)
     private Integer kodTmhm;

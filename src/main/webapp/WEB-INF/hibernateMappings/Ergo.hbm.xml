@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="org.models.ErgoEntity" table="ergo" schema="etaireia">
+    <class name="org.models.Ergo" table="ergo" schema="etaireia">
         <property name="εΟνομα">
             <column name="Ε_ΟΝΟΜΑ" sql-type="text" not-null="true"/>
         </property>

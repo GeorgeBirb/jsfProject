@@ -4,7 +4,7 @@
     "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
 
-    <class name="org.models.ErgazomenosEntity" table="ergazomenos" schema="etaireia">
+    <class name="org.models.Ergazomenos" table="ergazomenos" schema="etaireia">
         <property name="onoma">
             <column name="ONOMA" sql-type="text" not-null="true"/>
         </property>
